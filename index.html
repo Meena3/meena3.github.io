@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
         <title>Meen Ammineni</title>
-        <!-- <meta name = "viewport" content="width=device-width,initial-scale=1.0"> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -20,37 +21,16 @@
         margin-top: 50px;
         margin-left: 41%
     }
-    .profileImage{
-        height: 200px;
-        width: 200px;
-        border:12px solid #9CD4F0;
-    }
     .circleDot{
         width:40px;
         height: 40px;
         margin-left: 255px;
         
     }
-    li{
-        color:rgb(0, 100, 150);
-    }
-    .icon{
-        background-color: #9CD4F0;
-        width:115px;
-        padding:15px;
-    }
     /* .projects{
         margin-top: 40px;
         margin-bottom: 20px;
     } */
-    .projectImage{
-        width:500px;
-        height:200px;
-    }
-    .projectImage1{
-        width:500px;
-        height:175px;
-    }
     .foot{
         width:30px;
         height: 40px;
@@ -59,50 +39,19 @@
     .foot1{
         width:40px;
         height: 50px;
-    
-    }
-    .icon1{
-        border:2px solid  #9CD4F0;
-        background-color: #9CD4F0;
-        width:115px;
-        padding:15px;
-    }
-    .proficeincy{
-        width:250px;
-        height:200px;
-        padding:15px;
-        margin-left: 70px;
     }
     
-    .proficeincy1{
-        width:250px;
-        height:200px;
-        padding:15px;
-        margin-left: 40px;
-    }
-    .proficeincy2{
-        width:200px;
-        height:200px;
-        padding:15px;
-        margin-left: 30px;
-    }
-    .iconarr1{
-        margin-left: 130px;
-    }
-    .iconarr2{
-        margin-left: 70px;
-    }
-    .iconarr4{
-        margin-left: 50px;
-    }
-    @media only screen and (max-width:1000px){
-        
+     
+    @media only screen and (max-width:768px){
         .p{
             font-size: 12px;
         }
         .marginBox{
-            margin-top: 150px;
-            margin-left: 25%
+        margin-top: 50px;
+        margin-left: 15%
+        }
+        .icon{
+            width: 50px;
         }
         .circleDot{
             width:40px;
@@ -110,112 +59,108 @@
             margin-left: 120px;
         
         }
-        .para{
-            font-size: 12px;
-        }
-        .icon{
-            background-color: #9CD4F0;
-            width:50px;
-            padding:5px;
-        }
-        .proficeincy{
-            width:100px;
-            height:100px;
-            margin-left: 5px;
-        }
-        .proficeincy1{
-            width:100px;
-            height:100px;
-            margin-left: 5px;
-        }
-        .proficeincy2{
-            width:100px;
-            height:100px;
-            margin-left: 5px;
-        }
-        .iconarr1{
-        margin-left: 20px;
-         }
-        .iconarr2{
-            margin-left: 10px;
-        }
-        .iconarr4{
-            margin-left: 10px;
-        }
-
-    }      
+       
+    } 
     </style>
     <body>
         <div class="marginBox">
-            <img class = " profileImage rounded-circle" src = "resourses/123.jpg">
+            <img style = "width:200px;height:200px;border:12px solid #9CD4F0;" class = "rounded-circle" src = "resourses/123.jpg">
         </div>
         <div class="offset-5">
             <div style="background:#8FD0F1" class=" rounded-circle circledot"> </div>
         </div>
-        <div class = "text-center mt-3">
+        <div class = "text-center mb-2">
             <h4 style="color: #707070"><b>Meena Ammineni</b></h4>
-            <h4 class="text-muted">Full Stack Developer</h4>
+            <h4 class="text-muted ">Full Stack Developer</h4>
             <ul class="list-inline mt-3 mb-2 ">
-                <li class=" list-inline"><i>Bangalore &nbsp;&nbsp; &nbsp; +91 8073611667 &nbsp;&nbsp; &nbsp; meena.ammineni@gmail.com</i></li>
-                <li class = "list-inline"><i></i></li>
-                <li class="list-inline"><i></i></li>
-                <li class="list-inline">
+                <li class=" list-inline-item col-lg-2 col-sm-12 m11"><i class="fa fa-map-marker" style="color:rgb(0,100,150)">&nbsp;Bangalore</i></li>
+                <li class = "list-inline-item col-lg-2 col-sm-12 m21"><i class="fa fa-phone" style="color:rgb(0,100,150)">+91 8073611667</i></li>
+                <li class="list-inline-item col-lg-2 col-sm-12 m31"><i class="fa fa-envelope" style="color:rgb(0,100,150)">&nbsp;meena.ammineni@gmail.com</i></li>
+                <!-- <li class="list-inline"><a href = "https://github.com/masai-school/cohort_2/tree/master/submissions/sp_020_meena">Masai Github Profile</a></li> -->
+            </ul>
+            <ul class="list-inline mt-3 mb-2 ">
+                <li class=" list-inline-item ">
                     <a href = "https://github.com/meena3" style = "color: rgb(0, 100, 150)">Github Profile</a>&nbsp;&nbsp;&nbsp;
-                    <a href = "https://www.linkedin.com/in/meena-ammineni-162a56192" style = "color: rgb(0, 100, 150);margin-left:20px">Linkedin</a>
-                    <a href = "resourses/Meena's Resume.pdf" style = "color: rgb(0, 100, 150);margin-left:20px">Resume</a>                    
+                </li>
+                <li class = "list-inline-item m1-2">
+                        <a href = "https://www.linkedin.com/in/meena-ammineni-162a56192" style = "color: rgb(0, 100, 150);margin-left:20px">Linkedin</a>
+                </li>
+                <li class="list-inline-item m1-2">
+                        <a href = "resourses/Meena's Resume.pdf" style = "color: rgb(0, 100, 150);margin-left:20px">Resume</a>                    
                 </li>
                 <!-- <li class="list-inline"><a href = "https://github.com/masai-school/cohort_2/tree/master/submissions/sp_020_meena">Masai Github Profile</a></li> -->
             </ul>
-            <p class="text-center text-muted para">
+            <p class="text-center text-muted">
                 A Passinating Aspiring Full Stack Developer skilled in MERN stack,moulded<br>
                 Shaped by Masai School's numerous trianing.Actively ready to join in a great lively team<br>
                 of a good-startup to adpat me in any situation and environment with ease and perform best.
             </p>
         </div>
-        <div class = "container mt-4 mb-3">
+        <div class = "container">
             <div class = "row">
-                <div class = "col mb-3 "><img src ="resourses/html5.svg" class = " rounded-circle shadow-sm icon"  ></div>
-                <div class = "col mb-3"><img src ="resourses/css.png" class = "rounded-circle shadow-sm icon " ></div>
-                <div class = "col mb-3"><img src ="resourses/bootstrap.svg" class = "rounded-circle shadow-sm icon " ></div>
-                <div class = "col mb-3"><img src ="resourses/javascript.svg" class = "rounded-circle shadow-sm icon" ></div>
+                <div class = "col mb-3">
+                    <img src ="resourses/html5.svg" style="background-color: #9CD4F0;width:115px;padding:15px;" class="rounded-circle shadow p-3" >
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/css.png"style="background-color: #9CD4F0;width:115px;padding:15px;" class="rounded-circle shadow p-3" >
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/bootstrap.svg"style="background-color: #9CD4F0;width:115px;padding:15px;" class="rounded-circle shadow p-3" >
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/javascript.svg"style="background-color: #9CD4F0;width:115px;padding:15px;" class="rounded-circle shadow p-3" >
+                </div>
             </div>
         </div>
-        <div class = "container mt-3 mb-3">
+        <div class = "container">
             <div class = "row">
-                <div class = "col mb-3"><img src ="resourses/react.svg" class = " rounded-circle shadow-sm icon" ></div>
-                <div class = "col mb-3"><img src ="resourses/git.svg" class = "rounded-circle shadow-sm icon " ></div>
-                <div class = "col mb-3"><img src ="resourses/python3.svg" class = "rounded-circle shadow-sm icon " ></div>
-                <div class = "col mb-3"><img src ="resourses/flask.svg" class = "rounded-circle shadow-sm icon" ></div>
-            </div>
+                <div class = " col mb-3">
+                    <img src ="resourses/react.svg" style="background-color: #9CD4F0;width:115px;padding:15px;"class = " rounded-circle shadow-sm" >
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/git.svg"style="background-color: #9CD4F0;width:115px;padding:15px;"class = "rounded-circle shadow-sm" >
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/python3.svg"style="background-color: #9CD4F0;width:115px;padding:15px;"class = "rounded-circle shadow-sm">
+                </div>
+                <div class = "col mb-3">
+                    <img src ="resourses/flask.svg"style="background-color: #9CD4F0;width:115px;padding:15px;"class = "rounded-circle shadow-sm">
+                </div>
+            </div
+        </div>
+        <div class = "mb-5 mt-5 container">
         </div>
         <div class = "mt-5">
-            <h3 class = "text-center text-muted"><b>Proficiencies</b></h3>
-        </div>
-        <div class = "container mt-4">
-            <div class = "row mb-4" >
-                <div class = "col mb-3"><img src ="resourses/frnt.jpg" class = "shadow proficeincy" ></div>
-                <div class = "col mb-3"><img src ="resourses/backend.png" class = "shadow proficeincy1" ></div>
-                <div class = "col mb-3"><img src ="resourses/data.jpeg" class = "shadow proficeincy2" ></div>
-                <!-- <div class = "col mb-3"><img src ="resourses/flask.svg" class = " rounded-circle shadow-sm icon" ></div> -->
+            <div class="container text-center">
+            <h2 class = "text-muted text-center"><b>Proficiencies</b></h2>
+                <div class = "row" >
+                    <div class = "col md-3"><img src ="resourses/frnt.jpg" class = "mb-2" style="width:250px;height:250px;padding:5px"></div>
+                    <div class = "col md-3"><img src ="resourses/backend.png" class = "mb-2" style="width:250px;height:250px;padding: 5px"></div>
+                    <div class = "col md-3"><img src ="resourses/data.jpeg" class = "mb-2"style="width:200px;height:200px;padding: 5px" ></div>
+                    <!-- <div class = "col mb-3"><img src ="resourses/flask.svg" class = " rounded-circle shadow-sm icon" ></div> -->
+                </div>
             </div>
         </div>
-        <div class = "projects mt-5">
-            <h2 class="text-center text-muted"><b>Projects</b></h2>
+        <div class="mb-5 mt-5"></div>
+        <div class="mb-5 mt-5"></div>
+        <div class="mb-5 mt-5 container">
         </div>
-        <div class = "mb-5">
-            <div class="container ">
+        <div class = "mb-5 ">
+                <h2 class="text-center text-muted mb-2"><b>Projects</b></h2>
+            <div class="container text-center">
                 <div class="row">
                     <div class = "col-md-4 mb-1">
                         <div class="card">
                             <div class="card-body shadow"><img class="img-fluid mb-3 projectImage"  src = "resourses/helath.png">
                                 <h4 class="card-title">Health Advisor</h4>
-                                <p class="text-muted">This is a project using CSS and Javascript ,
-                                    It is basically gives output of Total Calories You Spend by taking input of 
-                                    your Food in take and Exercise done.
+                                <p class="text-muted">This is a project using CSS and Javascript,
+                                    It gives Total Calories You Spend by 
+                                    taking input of your in take and Exercise done.
                                 </p>
-                                <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-4"><i class="fa fa-github" aria-hidden="true">Github</i></a>
-                                <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_4/index.html">DemoLink</a>
-                                <img src = "resourses/b.png" class = "foot1">
+                                <!-- <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-4"><i class="fa fa-github" aria-hidden="true">Github</i></a> -->
+                                <a class = "card-link mt-5" href = ""></a>
+                                <!-- <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_4/index.html">DemoLink</a> -->
+                                <img src = "resourses/b.png" class = "foot1 ml-5">
                                 <img src = "resourses/css3.png" class = "foot">
                                 <img src = "resourses/js.png" class = "foot">
                             </div>
@@ -225,13 +170,14 @@
                         <div class="card">
                             <div class="card-body shadow"><img class="img-fluid mb-3 projectImage"  src = "resourses/fod.png">
                                 <h5 class="card-title">Food On Delivery</h5>
-                                <p class = "text-muted">This is a project basically Food on Delivery with Basic 
-                                    Functionalities you can add restaurant details,by using React,Bootstrap.
+                                <p class = "text-muted">This is a project basically Food on Delivery with Basic Functionalities 
+                                    you can add restaurant details and you can search,by using React,Bootstrap.
                                 </p>
                                 <br>
-                                <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-9">Github</a>
-                                <a class = "card-link mt-5" href = "http://localhost:3000/">DemoLink</a>
-                                <img src = "resourses/b.png" class = "foot1">
+                                <a class = "card-link mt-5 " href = "https://github.com/Meena3/masai-week-9"><i class="fa fa-github" aria-hidden="true">Github</i></a>
+                                <a class = "card-link mt-5" href = "http://localhost:3000/"></a>
+                                <!-- <a class = "card-link mt-5" href = "http://localhost:3000/">DemoLink</a> -->
+                                <img src = "resourses/b.png" class = "foot1 ml-5">
                                 <img src = "resourses/css3.png" class = "foot">
                                 <img src = "resourses/r.png" class = "foot1">
                             </div>
@@ -241,15 +187,14 @@
                         <div class="card">
                             <div class="card-body shadow"><img class="img-fluid mb-3 projectImage"  src = "resourses/cricket players.png">
                                 <h4 class="card-title">Cricket Players</h4>
-                                <p class="text-muted">This is basically You can enter player Details
-                                    and those are storing in the localStorage and you can show details of player
-                                        and each player dashboard.
+                                <p class="text-muted">This is basically storing details in localStorage it is showing details of player & each player dashboard.
                                     
                                 </p>
                                 <!-- <br> -->
-                                <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-10"><i class="fa fa-github" aria-hidden="true">Github</i></a>
-                                <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_1/index.html">DemoLink</a>
-                                <img src = "resourses/b.png" class = "foot1">
+                                <a class = "card-link mt-5 " href = "https://github.com/Meena3/masai-week-10"><i class="fa fa-github" aria-hidden="true">Github</i></a>
+                                <a class = "card-link mt-5" href = ""></a>
+                                <!-- <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_1/index.html">DemoLink</a> -->
+                                <img src = "resourses/b.png" class = "foot1 ml-5">
                                 <img src = "resourses/css3.png" class = "foot">
                                 <img src = "resourses/r.png" class = "foot1">
                                 <!-- <img src = "resourses/ht1.jpeg" class = "foot"> -->
@@ -270,10 +215,10 @@
                                     it is a profile page of Naruto Character.
                                 </p>
                                 <br>
-                                <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-2"><i class="fa fa-github" aria-hidden="true">Github</i></a>
-                                <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_2/index.html">DemoLink</a>
+                                <a class = "card-link mt-5 ml-3" href = "https://github.com/Meena3/masai-week-2"><i class="fa fa-github" aria-hidden="true">Github</i></a>
+                                <a class = "card-link mt-5" href = ""></a>
                                 <!-- <a class = "card-link mt-5" href = "file:///home/meena/masai/portfolio/index.html">DemoLink</a> -->
-                                <img src = "resourses/html5.png" class = "foot">
+                                <img src = "resourses/html5.png" class = "foot ml-5">
                                 <img src = "resourses/css3.png" class = "foot">
                                 <img src = "resourses/b.png" class = "foot1">
                             </div>
@@ -306,9 +251,9 @@
                                         using MYSQL Database and React.Login user authentication Q&A.
                                     </p>
                                     
-                                    <a class = "card-link mt-5" href = "https://github.com/masai-school/cohort_2/submissions/sp_020_meena/week_20/day_3/Quora"><i class="fa fa-github" aria-hidden="true">Github</i></a>
-                                    <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_20/day_3/localhost:3000">DemoLink</a>
-                                    <img src = "resourses/localstorage.jpeg" class = "foot1">
+                                    <a class = "card-link mt-5 ml-3" href = "https://github.com/masai-school/cohort_2/submissions/sp_020_meena/week_20/day_3/Quora"><i class="fa fa-github" aria-hidden="true">Github</i></a>
+                                    <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_20/day_3/localhost:3000"></a>
+                                    <img src = "resourses/localstorage.jpeg" class = "foot1 ml-5">
                                     <img src = "resourses/MySQL.svg.png" class = "foot">
                                     <img src = "resourses/r.png" class = "foot1">
                                 </div>
@@ -318,13 +263,13 @@
                         <div class="card">
                             <div class="card-body shadow"><img class="img-fluid mb-3 projectImage1" src = "resourses/zebpay.png">
                                 <h4 class="card-title">Zebpay Staic Page</h4>
-                                <p class = "text-muted">This is my first project using Bootstrap and basic React ,
-                                    it is as it is Zebpay Official Page of with Responsiveness.
+                                <p class = "text-muted">This project using Bootstrap and basic React ,
+                                     Zebpay Official Page.
                                 </p>
                                 <br>
-                                <a class = "card-link mt-5" href = "https://github.com/Meena3/masai-week-7"><i class="fa fa-github" aria-hidden="true">Github</i></a>
-                                <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_1/index.html">DemoLink</a>
-                                <img src = "resourses/b.png" class = "foot1">
+                                <a class = "card-link mt-5 ml-3" href = "https://github.com/Meena3/masai-week-7"><i class="fa fa-github" aria-hidden="true">Github</i></a>
+                                <a class = "card-link mt-5" href = "file:///home/meena/projects/masai/week_1/index.html"></a>
+                                <img src = "resourses/b.png" class = "foot1 ml-5">
                                 <img src = "resourses/css3.png" class = "foot">
                                 <img src = "resourses/r.png" class = "foot1">
                             </div>
